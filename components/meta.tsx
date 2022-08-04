@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 
 const Meta = () => {
   return (
     <Head>
+      {/* TODO: Replace Icons */}
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -32,11 +32,13 @@ const Meta = () => {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
+      {/* TODO: Add meta tags for Open Graph */}
+      {/* <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
-      />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        content={`A statically generated blog example using Next.js`}
+        /> */}
+      {/* <meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}
+      {/* ------- */}
     </Head>
   )
 }
