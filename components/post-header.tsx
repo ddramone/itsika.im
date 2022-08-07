@@ -13,8 +13,8 @@ const PostHeader = ({ tags, title, coverImage, date }: Props) => {
   return (
     <>
       <div className="text-sm mb-1">
-        {[tags, <DateFormatter dateString={date} />].map((v, i) => (
-          <span key={i} className="first:after:content-['|'] first:after:mx-2 text-gray-700">
+        {[tags, <DateFormatter dateString={date} />].filter(Boolean).map((v, i) => (
+          <span key={i} className="after:content-['|'] after:mx-2 text-gray-700 last:after:content-none">
             {v}
           </span>
         ))}
