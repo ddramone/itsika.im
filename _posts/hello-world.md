@@ -1,5 +1,6 @@
 ---
 title: 'Hello World'
+excerpt: "I'm creating the space to share personal reflections."
 coverImage: '/assets/blog/hello-world/wave.svg'
 date: '2022-08-08T15:28:51.413Z'
 ogImage:
