@@ -3,13 +3,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'display': ['"Neue Haas Grotesk Display Pro"'],
-        'body': ['"Open Sans"'],
+        'display': ['"Fira Sans"'],
+        'body': ['"Lustria"'],
       },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
+        'accent-1': '#E75C41',
         success: '#0070f3',
         cyan: '#79FFE1',
       },

@@ -1,13 +1,16 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply font-body text-xl text-[#0E1E3C] leading-loose;
 }
 
 .markdown p,
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6 text-justify;
-  
+  @apply my-12 text-justify;
+}
+
+.markdown a {
+  @apply text-accent-1 hover:underline underline-offset-4;
 }
 
 .markdown h2 {
